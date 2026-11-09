@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 @RequiredArgsConstructor
 @Slf4j
-public class CancelExpiredInvoicesScheduler implements ApplicationRunner {
+public class CancelExpiredInvoicesRunner implements ApplicationRunner {
 
     private final CancelExpiredInvoicesApplicationService applicationService;
 
